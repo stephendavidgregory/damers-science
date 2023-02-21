@@ -1,0 +1,246 @@
+---
+email: "[stephen.gregory@cefas.gov.uk](mailto:stephen.gregory@cefas.gov.uk)"
+format: 
+  revealjs:
+    theme: custom.scss
+    incremental: true
+    pointer:
+      color: green
+      pointerSize: 64
+from: markdown+emoji
+execute: 
+  eval: true
+  echo: false
+  message: false
+  warning: false
+  code-fold: true
+  code-summary: "expand for full code"
+  fig-align: "center"
+revealjs-plugins:
+  - pointer
+---
+
+##  {background-image="background-title.png" background-size="100%"}
+
+::: {.absolute top="0%" left="0%" width="1100" style="font-size: 1.75em; color: #1C2442; font-weight: bold;"}
+Salmon science :fish:
+:::
+
+::: {.absolute top="15%" left="0%" width="1100" style="font-size: 1.25em; color: #00AAB4;"}
+Stephen Gregory \| Flora's dad (and fish scientist)
+:::
+
+## What is salmon? :thinking: {background-image="background-body.png" background-size="100%"}
+
+. . .
+
+![](salmon-fillets.jpg){.absolute top="50" left="0" width="450"}
+
+. . .
+
+![](salmon-fishing.jpg){.absolute top="100" right="0" width="450"}
+
+. . .
+
+![](salmon-jumping.jpg){.absolute bottom="60" left="250" width="450"}
+
+
+
+## Where do they live? :astonished: {background-image="background-body.png" background-size="100%"}
+
+   > River 
+   >
+   > Sea
+
+![](salmon-river.jpg){.absolute top="50" right="0" width="550"}
+
+![](open-ocean.jpg){.absolute top="300" left="0" width="550"}
+
+## Where do they live? :exploding_head: {background-image="background-body.png" background-size="100%"}
+
+![](dorchester-frome1.jpg){.absolute top="100" left="0" width="450"}
+
+![](dorchester-frome2.jpg){.absolute top="100" right="0" width="450"}
+
+![](dorchester.jpg){.absolute bottom="50" left="250" width="450"}
+
+## Where do they live? :exploding_head: {background-image="background-body.png" background-size="100%"}
+
+![](poole-harbour-boats.jpg){.absolute top="100" left="0" width="450"}
+
+![](poole-harbour-aerial.jpg){.absolute top="100" right="0" width="450"}
+
+![](poole-harbour.jpg){.absolute bottom="50" left="250" width="450"}
+
+## River Frome salmon {background-image="background-body.png" background-size="100%"}
+
+![](frome-salmon1.jpg){.absolute top="100" left="50" width="250"}
+
+![](frome-salmon2.jpg){.absolute top="50" right="50" width="450"}
+
+![](frome-salmon3.jpg){.absolute bottom="50" left="275" width="450"}
+
+
+## {background-image="background-body.png" background-size="100%"}
+
+![](salmon-life-cycle.png)
+
+## {background-image="background-body.png" background-size="100%"}
+
+```{r}
+
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng=-2.461784, lat=50.714819, popup="Damers") %>%
+  addMarkers(lng=-2.441403, lat=50.713060, popup="Borough Gardens")
+
+```
+
+1 miles - 25 mins
+
+## {background-image="background-body.png" background-size="100%"}
+
+```{r}
+
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng=-2.453921, lat=50.721238, popup="River Frome") %>%
+  addMarkers(lng=-62.085282, lat=69.993231, popup="West Greenland")
+
+```
+
+~ 5000 miles - 2-3 years
+
+## Salmon migration :laughing: {background-image="background-body.png" background-size="100%"}
+
+<iframe width="80%" height="80%" src="https://www.youtube.com/embed/YFZbciPzAYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## How many salmon are there? {background-image="background-body.png" background-size="100%"}
+
+
+## How many salmon are there? {background-image="background-body.png" background-size="100%"}
+
+
+   > There used to be many salmon! :grin:
+   
+![](many-salmon.jpg)
+
+## How many salmon are there? {background-image="background-body.png" background-size="100%"}
+
+
+   > But now there are fewer... :slightly_frowning_face:
+
+![](salmon-decline.jpg){.absolute bottom="0" left="100" width="900"}
+
+## How do we count them? {background-image="background-body.png" background-size="100%"}
+
+## NOT LIKE THIS... :open_mouth: {background-image="background-body.png" background-size="100%"}
+
+<iframe width="80%" height="80%" src="https://www.youtube.com/embed/EqLpNlfruHY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## NOT LIKE THIS... :open_mouth: {background-image="background-body.png" background-size="100%"}
+
+<iframe width="80%" height="80%" src="https://www.youtube.com/embed/rPeg1tbBt0A?start=22" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Like this... Electrofishing :zany_face: {background-image="background-body.png" background-size="100%"}
+
+&nbsp;&nbsp;
+
+::: {.columns}
+::: {.column width="70%"}
+
+> [**Electricity** &nbsp;&nbsp; battery and water :zap:]{.fragment}
+
+> [**Waders** &nbsp;&nbsp; or *big* wellies :no_mouth:]{.fragment}
+
+> [**Net** &nbsp;&nbsp; use cotton or paper bags :fishing_pole_and_fish:]{.fragment}
+
+:::
+
+::: {.column width="30%"}
+![](ghostbusters.jpg){.absolute top="100" right="0" width="300"}
+:::
+:::
+
+## Electrofishing :zap: {background-image="background-body.png" background-size="100%"}
+
+<iframe width="80%" height="80%" src="https://www.youtube.com/embed/qsTbjmmzKuY?start=115" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## How do we count them? {background-image="background-body.png" background-size="100%"}
+
+&nbsp;&nbsp;
+
+::: {.columns}
+::: {.column width="70%"}
+
+> [**Microchip** &nbsp;&nbsp; tiny and harmless :credit_card:]{.fragment}
+
+> [**Release** &nbsp;&nbsp; put them back carefully! :fish:]{.fragment}
+
+> [**Maths** &nbsp;&nbsp; lots and lots of maths :abacus:]{.fragment}
+
+:::
+
+::: {.column width="30%"}
+[![](equation.png){.absolute top="100" right="0" width="300"}]{.fragment}
+[![](equation.png){.absolute top="250" right="0" width="300"}]{.fragment}
+[![](equation.png){.absolute top="400" right="0" width="300"}]{.fragment}
+:::
+:::
+
+
+## Why are salmon disappearing? :thinking: {background-image="background-body.png" background-size="100%"}
+
+. . .
+
+![](over-abstraction.jpg){.absolute top="75" right="0" width="500"}
+
+. . .
+
+![](climate-change.svg){.absolute top="100" left="0" width="500"}
+
+. . .
+
+
+![](plastic-pollution.jpg){.absolute bottom="0" left="275" width="600"}
+
+
+## Helping the salmon :heart: {background-image="background-body.png" background-size="100%"}
+
+&nbsp;&nbsp;
+
+::: {.columns}
+::: {.column width="75%"}
+
+> [**Less water** &nbsp;&nbsp; have a shorter shower :stuck_out_tongue_winking_eye:]{.fragment}
+
+> [**Less pollution** &nbsp;&nbsp; use buses & bikes & feet :smiling_face_with_three_hearts:]{.fragment}
+
+> [**Less plastic** &nbsp;&nbsp; use cotton or paper bags :wink:]{.fragment}
+
+:::
+
+::: {.column width="25%"}
+![](smiling-salmon.png)
+:::
+:::
+
+## Helping the salmon :heart: {background-image="background-body.png" background-size="100%"}
+
+&nbsp;&nbsp;
+
+> [Crazy ideas!]{.fragment}
+
+> [:fish: Salmon Cannon :bomb:...]{.fragment}
+
+## {background-image="background-body.png" background-size="100%"}
+
+<iframe width="100%" height="100%" align="center" src="https://www.youtube.com/embed/iPuQ39iGkAY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+##  {background-image="background-close.png" background-size="100%"}
+
+::: {.absolute top="44%" left="53%" width="150"}
+{{< meta email >}}
+:::
