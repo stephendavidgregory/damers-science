@@ -4,7 +4,7 @@
     "href": "damers-science-talk.html#section",
     "title": "",
     "section": "",
-    "text": "Salmon science 🐟\n\n\nStephen Gregory | Flora’s dad (and fish scientist)"
+    "text": "Salmon science 🐟\n\n\nStephen Gregory | Fish scientist"
   },
   {
     "objectID": "damers-science-talk.html#what-is-salmon",
@@ -124,6 +124,20 @@
     "title": "",
     "section": "How do we count them?",
     "text": "How do we count them?\n  \n\n\n\nMicrochip    tiny and harmless 💳\n\n\nRelease    put them back carefully! 🐟\n\n\nMaths    lots and lots of maths 🧮"
+  },
+  {
+    "objectID": "damers-science-talk.html#a-capture-mark-recapture-experiment",
+    "href": "damers-science-talk.html#a-capture-mark-recapture-experiment",
+    "title": "",
+    "section": "A capture-mark-recapture experiment",
+    "text": "A capture-mark-recapture experiment\n\n\\[\nN = \\frac{M \\times C}{R}\n\\]\n\n\\(N\\) = Number children\n\\(M\\) = Number children marked\n\\(C\\) = Total number of children captured\n\\(R\\) = Number of children recaptured"
+  },
+  {
+    "objectID": "damers-science-talk.html#a-capture-mark-recapture-experiment-1",
+    "href": "damers-science-talk.html#a-capture-mark-recapture-experiment-1",
+    "title": "",
+    "section": "A capture-mark-recapture experiment",
+    "text": "A capture-mark-recapture experiment\n\n\\(M\\) = Number children marked = 10\n\\(C\\) = Total number of children captured = 15\n\\(R\\) = Number of children recaptured = 5\n\n\n\n\n\n\\[\n\\frac{M \\times C}{R}  = \\frac{10 \\times 20}{5} = 40\n\\]\n\nIt works! 🥳"
   },
   {
     "objectID": "damers-science-talk.html#why-are-salmon-disappearing",

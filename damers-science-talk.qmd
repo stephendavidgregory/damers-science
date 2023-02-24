@@ -27,7 +27,7 @@ Salmon science :fish:
 :::
 
 ::: {.absolute top="15%" left="0%" width="1100" style="font-size: 1.25em; color: #00AAB4;"}
-Stephen Gregory \| Flora's dad (and fish scientist)
+Stephen Gregory \| Fish scientist
 :::
 
 ## What is salmon? :thinking: {background-image="background-body.png" background-size="100%"}
@@ -190,6 +190,43 @@ leaflet() %>%
 :::
 :::
 
+## A capture-mark-recapture experiment {background-image="background-body.png" background-size="100%"}
+
+. . .
+
+$$
+N = \frac{M \times C}{R}
+$$
+
+-   $N$ = Number children
+-   $M$ = Number children marked 
+-   $C$ = Total number of children captured
+-   $R$ = Number of children recaptured
+
+## A capture-mark-recapture experiment {background-image="background-body.png" background-size="100%"}
+
+-   $M$ = Number children marked = **10**
+-   $C$ = Total number of children captured = **15**
+-   $R$ = Number of children recaptured = **5**
+
+. . .
+
+```{r}
+#| echo: false
+#| eval: false
+
+m <- 10
+c <- 15
+r <- 5
+
+print((m * (c + r)) / r)
+
+```
+$$
+\frac{M \times C}{R}  = \frac{10 \times 20}{5} = 40
+$$
+
+> It works! :partying_face:
 
 ## Why are salmon disappearing? :thinking: {background-image="background-body.png" background-size="100%"}
 
